@@ -26,7 +26,12 @@ body {
   width: 1600px;
   letter-spacing: 0.03em;
 }
-
+figure {
+  margin: 0;
+}
+.figcaption {
+  margin: 0;
+}
 a {
   text-decoration: inherit;
   color: inherit;
@@ -195,7 +200,12 @@ ul {
   width: 270px;
   height: 368px;
   padding: 0px 0px 108px 0px;
+  margin: 0;
 }
+.team-member-names {
+  margin: 0;
+}
+
 .paragraph-content {
   font-size: 14px;
   line-height: 1, 71;
@@ -420,6 +430,12 @@ address {
   background-color: #f5f4fa;
   cursor: pointer;
 }
+.header-style {
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #ececec;
+}
+
 .navi {
   font-weight: 500;
   font-size: 14px;
@@ -470,6 +486,7 @@ address {
   background-color: #f5f4fa;
   padding-bottom: 94px;
   border-radius: 0px 0px 4px 4px;
+  margin: 0;
 }
 
 .types-of-projects {
