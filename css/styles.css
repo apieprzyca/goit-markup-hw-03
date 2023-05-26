@@ -12,13 +12,18 @@ h2,
 h3,
 p,
 ul {
-  margin: 0;
-  padding: 0;
-  border: 0;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
   list-style-type: none;
+}
+* {
+  margin: 0;
+  padding: 0px;
+  border: 0px;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -26,11 +31,25 @@ body {
   width: 1600px;
   letter-spacing: 0.03em;
 }
+
+img {
+  margin: 0;
+  border: 0;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-style: none;
+}
 figure {
   margin: 0;
+  border-bottom: 0px;
+  border-top: 0px;
+  border: none;
+  border-width: 0px;
 }
-.figcaption {
+figcaption {
   margin: 0;
+  border-top: 0px;
+  border-style: none;
 }
 a {
   text-decoration: inherit;
@@ -201,8 +220,20 @@ ul {
   height: 368px;
   padding: 0px 0px 108px 0px;
   margin: 0;
+  border: none;
 }
 .team-member-names {
+  margin: 0;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-style: none;
+}
+.team-list-photos-item {
+  border: 0px;
+  border-bottom: 0px;
+  border-top: 0px;
+  border-width: 0px;
+  border-style: none;
   margin: 0;
 }
 
@@ -218,7 +249,7 @@ ul {
 }
 figcaption {
   font-weight: 500;
-  padding: 30px 0 10px 0;
+  padding: 30px 0px 0px 0px;
   justify-content: center;
 }
 .goals-title {
@@ -487,6 +518,9 @@ address {
   padding-bottom: 94px;
   border-radius: 0px 0px 4px 4px;
   margin: 0;
+  border-bottom: 0px;
+  border-width: 0px;
+  border-top: 0px;
 }
 
 .types-of-projects {
@@ -514,4 +548,9 @@ address {
 
 .types-of-projects img {
   display: block;
+}
+.team-list-photos-item img {
+  border-bottom-width: 0px;
+  border-style: none;
+  border-bottom: 0px;
 }
