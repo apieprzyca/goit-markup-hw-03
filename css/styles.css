@@ -66,13 +66,8 @@ a {
 section {
   background-color: #ffffff;
 }
-.section-title {
-  max-width: 1200px;
-}
 
 header {
-  max-width: 1600px;
-  max-height: 80px;
   background-color: #ffffff;
   margin: 0 auto;
   border-bottom: 1px;
@@ -204,7 +199,7 @@ button {
   line-height: 1.875;
   width: 200px;
   padding: 10px 0;
-  margin: 30px 500px 200px 500px;
+  margin: 30px 700px 200px 700px;
   letter-spacing: 0.06em;
 }
 h3 {
@@ -277,25 +272,18 @@ figcaption {
   background-color: #ffffff;
 }
 main {
-  max-width: 1600px;
-  max-height: 2349px;
   background: #ffffff;
 }
 .paragraph {
-  max-width: 1600px;
-  max-height: 348px;
   left: 0px;
   top: 1449px;
   background-color: #ffffff;
 }
 .our-goals {
-  max-width: 1600px;
-  max-height: 648px;
   background-color: #ffffff;
 }
 
 .our-team {
-  max-width: 1200px;
   background-color: #f5f4fa;
   padding-top: 100px;
   display: flex;
@@ -345,7 +333,6 @@ h2 {
   padding-top: 60px;
 }
 footer {
-  max-width: 1600px;
   left: 0px;
   margin: 0 auto;
   background: #2f303a;
@@ -355,7 +342,6 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  max-width: 1200px;
   margin: 0 auto;
 }
 
