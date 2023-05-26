@@ -3,6 +3,11 @@
 *::after {
   box-sizing: border-box;
 }
+* {
+  margin: 0;
+  padding: 0px;
+  border: 0px;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -11,7 +16,8 @@ h1,
 h2,
 h3,
 p,
-ul {
+ul,
+li {
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -20,11 +26,7 @@ ul {
   vertical-align: baseline;
   list-style-type: none;
 }
-* {
-  margin: 0;
-  padding: 0px;
-  border: 0px;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #212121;
@@ -229,6 +231,7 @@ ul {
   border-style: none;
 }
 .team-list-photos-item {
+  display: block;
   border: 0px;
   border-bottom: 0px;
   border-top: 0px;
@@ -339,7 +342,7 @@ footer {
   max-width: 1600px;
   max-height: 252px;
   left: 0px;
-  top: 2097px;
+  margin: 0 auto;
   background: #2f303a;
   text-decoration: none;
 }
@@ -350,6 +353,8 @@ footer {
   padding-top: 60px;
   padding-bottom: 60px;
   padding-left: 215px;
+  width: 1200px;
+  margin: 0 auto;
 }
 address {
   font-style: normal;
